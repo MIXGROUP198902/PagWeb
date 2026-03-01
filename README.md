@@ -33,6 +33,7 @@ Este repositorio contiene el **Frontend** del sistema, construido bajo una arqui
 * **React Router Dom**: Gestión de navegación entre páginas (Inicio, Talento, Login, Perfil) sin recarga de página (SPA).
 * **Tailwind CSS**: Framework de utilidades para un diseño moderno, responsivo y fácil de mantener.
 * **Material Symbols**: Librería de iconos vectoriales para una estética profesional.
+* **Despliegue:** Vercel (CI/CD integrado con GitHub).
 
 ---
 
