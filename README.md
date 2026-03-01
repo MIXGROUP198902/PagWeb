@@ -1,42 +1,48 @@
-# 🚀 InnovaFreelance - Plataforma de Ingeniería de Élite
+# 🚀 InnovaFreelance - MVP Frontend
 
-**InnovaFreelance** es un ecosistema digital diseñado para conectar a empresas y emprendedores con ingenieros altamente especializados. A diferencia de otras plataformas de freelance, nos enfocamos exclusivamente en nichos tecnológicos como el desarrollo de sistemas embebidos, diseño de hardware, inteligencia artificial y software de alto rendimiento.
+**InnovaFreelance** es una plataforma web desarrollada en **React** diseñada para ser el punto de encuentro entre talento de ingeniería especializado y proyectos tecnológicos de alto impacto. 
 
----
-
-## 🛠️ Perfil del Desarrollador (Lead Engineer)
-**Ivan Alexei Gamboa Bernal (Parlod198902)** *Ingeniero en Sistemas Computacionales | Entusiasta del Software | Aprendiz Constante*
-
-* **Lenguajes:** Java ☕, Python 🐍, C/C++ ⚙️, JavaScript.
-* **Especialidades:** Desarrollo Web (Django/Flask), Bases de Datos (MySQL, SQLite, MongoDB) y Sistemas Linux.
-* **Visión:** Crear soluciones tecnológicas eficientes que integren el mundo del software con el hardware industrial.
+Este repositorio contiene el **Frontend** del sistema, construido bajo una arquitectura de componentes escalables y un diseño enfocado en la productividad técnica.
 
 ---
 
-## 💡 Innovaciones Destacadas del Proyecto
+## 💻 Funcionalidades de la Aplicación
 
-### 🔌 1. Generador de Archivos Gerber (Python 3.13)
-Una herramienta integrada para automatizar la creación de archivos `.gbr` compatibles con impresoras de PCBs de alta precisión. Ideal para ingenieros electrónicos que buscan agilizar su flujo de prototipado.
+### 🏠 Landing Page Dinámica
+* Interfaz optimizada con **Tailwind CSS** para un rendimiento ultra rápido.
+* Diseño "Dark Mode" nativo integrado para reducir la fatiga visual de los ingenieros.
+* Call-to-actions claros para los dos flujos de usuario: Clientes y Freelancers.
 
-### 🤖 2. Asistencia con Visión Artificial (YOLO)
-Implementación de modelos de detección de objetos en tiempo real (YOLO) para dispositivos de asistencia, como bastones inteligentes para personas con discapacidad visual.
+### 🔍 Buscador de Talento (Descubrir)
+* Catálogo visual de expertos categorizados por especialidad (IoT, Software, Hardware).
+* Tarjetas de perfil interactivas que muestran habilidades clave y valoraciones de un vistazo.
 
-### 🏭 3. Monitoreo IoT Industrial (ESP32)
-Prototipos de bajo costo basados en el microcontrolador ESP32 para el mantenimiento predictivo y monitoreo en tiempo real de maquinaria y sistemas de refrigeración industrial.
-
----
-
-## 🏗️ Arquitectura del Sistema
-
-El proyecto sigue una estructura de monorepositorio organizada para facilitar la escalabilidad:
-
-* **/frontend**: Desarrollado con **React**, **Tailwind CSS** y **React Router**. Ofrece una experiencia de usuario fluida, modo oscuro nativo y navegación optimizada.
-* **/backend**: Implementado en **Node.js** y **C#** para gestionar la autenticación segura, perfiles de usuario y bases de datos relacionales.
+### 👤 Portafolios de Ingeniería (Estilo GitHub)
+* Visualización de perfiles técnicos que emula un `README.md` profesional.
+* Secciones dedicadas a:
+    * **Stack Tecnológico:** Visualización de herramientas actuales.
+    * **Proyectos Destacados:** Galería de trabajos previos (IoT, PCBs, Software).
+    * **Actividad Reciente:** Historial de contribuciones y avances técnicos.
 
 ---
 
-## 🚀 Cómo empezar
+## 🛠️ Tecnologías Utilizadas
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/MIXGROUP198902/PagWeb.git](https://github.com/MIXGROUP198902/PagWeb.git)
+* **React 18**: Biblioteca principal para la construcción de la interfaz de usuario.
+* **Vite**: Herramienta de construcción para un entorno de desarrollo veloz.
+* **React Router Dom**: Gestión de navegación entre páginas (Inicio, Talento, Login, Perfil) sin recarga de página (SPA).
+* **Tailwind CSS**: Framework de utilidades para un diseño moderno, responsivo y fácil de mantener.
+* **Material Symbols**: Librería de iconos vectoriales para una estética profesional.
+
+---
+
+## 📁 Estructura del Proyecto (Frontend)
+
+```text
+src/
+├── App.jsx        # Enrutador principal y Landing Page
+├── Login.jsx      # Interfaz de autenticación
+├── Talento.jsx    # Catálogo de ingenieros (Descubrir)
+├── Perfil.jsx     # Vista detallada del portafolio del freelancer
+├── index.css      # Configuraciones globales de Tailwind
+└── main.jsx       # Punto de entrada de React
